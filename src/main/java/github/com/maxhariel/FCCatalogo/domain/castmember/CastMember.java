@@ -30,7 +30,7 @@ public class CastMember extends BaseEntity {
 
     public void setName(String name) {
         if (name == null)
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("castMember name is null");
         if (name.length() == 0)
             this.name = name;
     }
@@ -41,9 +41,9 @@ public class CastMember extends BaseEntity {
 
     public void setType(CastMemberType type) {
         if (type == null)
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("castMember type is null");
         if (!CastMemberType.valueOf(type))
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("castMember type is invalid");
         this.type = type;
     }
 

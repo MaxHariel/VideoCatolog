@@ -31,9 +31,9 @@ public class Category extends BaseEntity {
 
     public void setName(String name) {
         if (name == null)
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("Category name is null");
         if (name.length() == 0)
-            throw new IllegalAccessError("");
+            throw new IllegalAccessError("Category name is blank");
         this.name = name;
     }
 

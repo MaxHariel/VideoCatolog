@@ -13,9 +13,9 @@ public class BaseEntity {
 
     public void setId(UUID id) {
         if (id == null)
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("id is null");
         if (!this.isValidUUID(id.toString()))
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("id is not valid UUID type");
         this.id = id;
     }
 
