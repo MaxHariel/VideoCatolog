@@ -1,4 +1,4 @@
-package github.com.maxhariel.FCCatalogo.domain.castmember;
+package github.com.maxhariel.FCCatalogo.domain.entity.castmember;
 
 import java.util.HashMap;
 import java.util.Map;

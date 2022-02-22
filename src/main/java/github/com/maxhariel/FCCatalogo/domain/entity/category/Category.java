@@ -1,4 +1,4 @@
-package github.com.maxhariel.FCCatalogo.domain.category;
+package github.com.maxhariel.FCCatalogo.domain.entity.category;
 
 import java.util.UUID;
 

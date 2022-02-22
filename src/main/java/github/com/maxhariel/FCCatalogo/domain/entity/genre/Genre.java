@@ -1,11 +1,11 @@
-package github.com.maxhariel.FCCatalogo.domain.genre;
+package github.com.maxhariel.FCCatalogo.domain.entity.genre;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
 import github.com.maxhariel.FCCatalogo.domain.BaseEntity;
-import github.com.maxhariel.FCCatalogo.domain.category.Category;
+import github.com.maxhariel.FCCatalogo.domain.entity.category.Category;
 
 public class Genre extends BaseEntity {
 
